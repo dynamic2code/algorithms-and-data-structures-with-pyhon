@@ -7,7 +7,10 @@ class Dictionary:
     
     def addToDictionary(self):
         # user inputs the values
-        values = input("")
+        key = input("Enter your key: ")
+        values = input("Enter your value/ values: ")
+        self.dictionary.update( key = values.split())
+        print(self.dictionary)
     
     def accecingDictionaryElement():
         pass
@@ -17,3 +20,7 @@ class Dictionary:
 
     def deleteDictionary(self):
         pass
+
+
+if __name__ == "__main__":
+    myDictionary = Dictionary()
