@@ -12,8 +12,10 @@ class Dictionary:
         self.dictionary.update( key = values.split())
         print(self.dictionary)
     
-    def accecingDictionaryElement():
-        pass
+    def accecingDictionaryElement(self):
+        #with the key
+        key = input("Enter the key you want to access: ")
+        print(self.dictionary[key])
 
     def removeFromDictionary(self):
         pass
