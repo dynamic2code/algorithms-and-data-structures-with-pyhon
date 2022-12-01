@@ -15,3 +15,7 @@ class MySet:
 
     def deleteFromSet(self):
         pass
+
+
+if __name__ == "__main__":
+    myset = MySet()
