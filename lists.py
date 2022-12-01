@@ -17,8 +17,11 @@ class MyList:
         removeWithItemName = input("Enter the name of the item you wish removed: ")
 
         self.names.pop(removeWithIndex)
-        self.names.remove(removeWithItemName)
 
+    def showAll(self):
+        pass
+
+    
 if __name__ == "__main__":
     myList = MyList()
     myList.addToList()
