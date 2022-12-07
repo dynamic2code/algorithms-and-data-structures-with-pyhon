@@ -5,7 +5,8 @@ class MySet:
         self.set = {}
 
     def addToSet(self):
-        pass
+        elements  = input("enter the elements: ")
+        
 
     def accesingSetElements(self):
         pass
