@@ -7,6 +7,7 @@ class MyList:
         self.names = []
     
     def showItem(self):
+        print(len(self.names))
         item  = int(input('enter the item index you wish to show: '))
         try:
            print( self.names[item])
@@ -27,10 +28,13 @@ class MyList:
         self.names.pop(removeWithIndex)
 
     def showAll(self):
-        pass
+        for i in self.names:
+            print(i)
 
     
 if __name__ == "__main__":
     myList = MyList()
     myList.addToList()
     myList.removeFromList()
+    myList.showItem()
+    myList.showAll()
