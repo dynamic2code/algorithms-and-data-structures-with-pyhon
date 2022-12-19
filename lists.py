@@ -5,6 +5,14 @@
 class MyList:
     def __init__(self):
         self.names = []
+    
+    def showItem(self):
+        item  = int(input('enter the item index you wish to show: '))
+        try:
+           print( self.names[item])
+        except:
+            print("value enterd s not of valid type")
+
 
     def addToList(self):
         #the lst will take inputs from user 
