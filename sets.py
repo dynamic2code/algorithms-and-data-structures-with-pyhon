@@ -20,7 +20,7 @@ class MySet:
 
 if __name__ == "__main__":
     myset = MySet()
-    myset.addToset()
+    myset.addToSet()
     myset.accesingSetElements()
     myset.removingFromSet()
     myset.deleteFromSet()
