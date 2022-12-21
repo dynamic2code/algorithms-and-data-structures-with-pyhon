@@ -18,7 +18,18 @@ class Dictionary:
         print(self.dictionary[key])
 
     def removeFromDictionary(self):
-        pass
+        method = int(input("Enter the method you wish to use\n 1 to use index \n 2 to remove by item name"))
+
+        if method == 1:
+            print(self.dictionary)
+            itemToDelete = int(input('Enter the idex you wish to delete: '))
+            self.dictionary.pop(itemToDelete)
+
+        elif method == 2:
+            
+            print(self.dictionary)
+            itemToDelete_string = input('Enter the item you wish to delete: ')
+            self.dictionary.pop(itemToDelete_string)
 
     def deleteDictionary(self):
         pass
