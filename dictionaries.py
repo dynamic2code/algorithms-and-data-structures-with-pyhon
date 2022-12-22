@@ -32,8 +32,9 @@ class Dictionary:
             self.dictionary.pop(itemToDelete_string)
 
     def deleteDictionary(self):
-        pass
-
+        comand = input("Enter del to delete the full dictionary: ")
+        if comand =='del':
+            self.dictionary.clear()
 
 if __name__ == "__main__":
     myDictionary = Dictionary()
