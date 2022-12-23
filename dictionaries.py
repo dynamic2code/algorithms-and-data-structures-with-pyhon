@@ -38,3 +38,7 @@ class Dictionary:
 
 if __name__ == "__main__":
     myDictionary = Dictionary()
+    myDictionary.addToDictionary()
+    myDictionary.accecingDictionaryElement()
+    myDictionary.removeFromDictionary()
+    myDictionary.deleteDictionary()
