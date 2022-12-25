@@ -8,6 +8,14 @@ class ForLoops:
     #loopign through a list
         for i in self.list1:
             print(i)
+    def loopingListInList(self):
+    #looping over a list in a list
+        list2=[]
+        for i in self.list1:
+            if type(i)== list:
+                list2.append(i)
+                
+                
 
 if __name__ == "__main__":
     objForLoop = ForLoops()
