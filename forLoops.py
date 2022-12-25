@@ -8,3 +8,7 @@ class ForLoops:
     #loopign through a list
         for i in self.list1:
             print(i)
+
+if __name__ == "__main__":
+    objForLoop = ForLoops()
+    objForLoop.loopignList()
