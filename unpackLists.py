@@ -11,3 +11,5 @@ class UnpackLists:
 
     def unpack(self):
         noOfValuables = len(self.listToUnpack)
+        #get value of the alphabet equal to the length of the list
+        
